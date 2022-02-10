@@ -14,7 +14,7 @@ public void draw(){
 public void myFractal(int x, int y, int siz){
   pushMatrix();
   translate(x,y,10);
-
+  rotateX(0.5);
   rotateY(0.5);
   box(siz);
   popMatrix();
